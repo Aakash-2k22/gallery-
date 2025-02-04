@@ -1,0 +1,410 @@
+@media(min-width : 320px) {
+    .Gallery {
+        height: auto;
+        width: 100%;
+    }
+
+    .galleryContainer {
+        height: auto;
+        width: 95%;
+        margin: auto;
+    }
+
+    .galleryContainer h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 20px;
+        padding-left: 30%;
+    }
+
+    .options {
+        height: auto;
+        width: 100%;
+    }
+
+    .optionContainer {
+        height: auto;
+        width: 95%;
+        margin: auto;
+    }
+
+    .optionContainer ul {
+        display: flex;
+        flex-direction: column;
+        padding-left: 30%;
+    }
+
+    .optionContainer ul li {
+        margin-top: 30px;
+        padding-left: 20px;
+        list-style: none;
+    }
+
+    .optionContainer ul li a {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+
+    li::after {
+        content: ' ';
+        display: block;
+        border-bottom: 2.5px solid black;
+        transition: 0.3s;
+        width: 0%;
+        margin: auto;
+        padding-top: 5px;
+    }
+
+    li:hover::after {
+        width: 100%;
+    }
+
+    .box {
+        height: 500px;
+        width: 100%;
+        margin-top: 35px;
+
+    }
+
+    .boxContainer {
+        height: 500px;
+        width: 95%;
+
+
+
+    }
+
+    .box1,
+    .box2,
+    .box3,
+    .box4,
+    .box5,
+    .box6,
+    .box7,
+    .box8 {
+        height: 240px;
+        width: 95%;
+        margin: auto;
+        padding-bottom: 20px;
+
+
+    }
+
+    img {
+        height: 100%;
+        width: 100%;
+        border-radius: 20px;
+        margin: auto;
+
+
+    }
+}
+
+@media(min-width : 760px) {
+    .Gallery {
+        height: auto;
+        width: 100%;
+    }
+
+    .galleryContainer {
+        height: auto;
+        width: 95%;
+        margin: auto;
+    }
+
+    .galleryContainer h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 20px;
+        padding-left: 42%;
+    }
+
+    .options {
+        height: auto;
+        width: 100%;
+    }
+
+    .optionContainer {
+        height: auto;
+        width: 95%;
+        margin: auto;
+    }
+
+    .optionContainer ul {
+        display: flex;
+        flex-direction: row;
+        padding-left: 18%;
+    }
+
+    .optionContainer ul li {
+        margin-top: 30px;
+        padding-left: 20px;
+        list-style: none;
+    }
+
+    .optionContainer ul li a {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+
+    li::after {
+        content: ' ';
+        display: block;
+        border-bottom: 2.5px solid black;
+        transition: 0.3s;
+        width: 0%;
+        margin: auto;
+        padding-top: 5px;
+    }
+
+    li:hover::after {
+        width: 100%;
+    }
+
+    .box {
+        height: 500px;
+        width: 100%;
+        margin-top: 35px;
+
+    }
+
+    .boxContainer {
+        height: 500px;
+        width: 95%;
+
+
+
+    }
+
+    .box1,
+    .box2,
+    .box3,
+    .box4,
+    .box5,
+    .box6,
+    .box7,
+    .box8 {
+        height: 240px;
+        width: 48%;
+        margin: auto;
+        padding-bottom: 20px;
+
+
+    }
+
+    img {
+        height: 100%;
+        width: 100%;
+        border-radius: 20px;
+        margin: auto;
+
+
+    }
+
+
+}
+
+@media(min-width : 1194px) {
+    .Gallery {
+        height: auto;
+        width: 100%;
+    }
+
+    .galleryContainer {
+        height: auto;
+        width: 95%;
+        margin: auto;
+    }
+
+    .galleryContainer h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 20px;
+        padding-left: 1%;
+    }
+
+    .options {
+        height: auto;
+        width: 100%;
+    }
+
+    .optionContainer {
+        height: auto;
+        width: 95%;
+        margin: auto;
+    }
+
+    .optionContainer ul {
+        display: flex;
+        flex-direction: row;
+        padding-left: 0%;
+    }
+
+    .optionContainer ul li {
+        margin-top: 30px;
+        padding-left: 20px;
+        list-style: none;
+    }
+
+    .optionContainer ul li a {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+
+    li::after {
+        content: ' ';
+        display: block;
+        border-bottom: 2.5px solid black;
+        transition: 0.3s;
+        width: 0%;
+        margin: auto;
+        padding-top: 5px;
+    }
+
+    li:hover::after {
+        width: 100%;
+    }
+
+    .box {
+        height: 500px;
+        width: 100%;
+        margin-top: 35px;
+
+    }
+
+    .boxContainer {
+        height: 500px;
+        width: 95%;
+
+
+
+    }
+
+    .box1,
+    .box2,
+    .box3,
+    .box4,
+    .box5,
+    .box6,
+    .box7,
+    .box8 {
+        height: 240px;
+        width: 32%;
+        margin: auto;
+        padding-bottom: 20px;
+
+
+    }
+
+    img {
+        height: 100%;
+        width: 100%;
+        border-radius: 20px;
+        margin: auto;
+
+
+    }
+}
+
+@media(min-width : 1520px) {
+    .Gallery {
+        height: auto;
+        width: 100%;
+    }
+
+    .galleryContainer {
+        height: auto;
+        width: 95%;
+        margin: auto;
+    }
+
+    .galleryContainer h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 20px;
+        padding-left: 1%;
+        font-size: 50px;
+    }
+
+    .options {
+        height: auto;
+        width: 100%;
+    }
+
+    .optionContainer {
+        height: auto;
+        width: 95%;
+        margin: auto;
+    }
+
+    .optionContainer ul {
+        display: flex;
+        flex-direction: row;
+        padding-left: 0%;
+    }
+
+    .optionContainer ul li {
+        margin-top: 30px;
+        padding-left: 20px;
+        list-style: none;
+    }
+
+    .optionContainer ul li a {
+        text-decoration: none;
+        color: black;
+        font-size: 30px;
+    }
+
+    li::after {
+        content: ' ';
+        display: block;
+        border-bottom: 2.5px solid black;
+        transition: 0.3s;
+        width: 0%;
+        margin: auto;
+        padding-top: 5px;
+    }
+
+    li:hover::after {
+        width: 100%;
+    }
+
+    .box {
+        height: 500px;
+        width: 100%;
+        margin-top: 35px;
+
+    }
+
+    .boxContainer {
+        height: 500px;
+        width: 95%;
+
+
+
+    }
+
+    .box1,
+    .box2,
+    .box3,
+    .box4,
+    .box5,
+    .box6,
+    .box7,
+    .box8 {
+        height: 240px;
+        width: 24%;
+        margin: auto;
+        padding-bottom: 20px;
+
+
+    }
+
+    img {
+        height: 100%;
+        width: 100%;
+        border-radius: 20px;
+        margin: auto;
+
+
+    }
+}
